@@ -1,15 +1,27 @@
 # 这是订阅源列表，每行一个订阅地址
 # This is a list of subscription sources, with one subscription address per line
-
+# === 国内频道源(原有) ===
 https://raw.githubusercontent.com/Guovin/iptv-database/master/result.txt
 https://raw.githubusercontent.com/iptv-org/iptv/gh-pages/countries/cn.m3u
 https://raw.githubusercontent.com/iptv-org/iptv/master/streams/cn.m3u
 https://raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u
 https://raw.githubusercontent.com/kimwang1978/collect-tv-txt/main/others_output.txt
 https://raw.githubusercontent.com/vbskycn/iptv/master/tv/iptv4.txt
-
-
-
+# === 港澳台频道源(新增) ===
+https://iptv-org.github.io/iptv/subdivisions/cn-hk.m3u
+https://iptv-org.github.io/iptv/subdivisions/cn-mo.m3u
+https://iptv-org.github.io/iptv/subdivisions/cn-tw.m3u
+# === 国际频道源(新增) ===
+# 亚洲频道
+https://iptv-org.github.io/iptv/regions/asia.m3u
+# 新闻频道
+https://iptv-org.github.io/iptv/categories/news.m3u
+# 体育频道
+https://iptv-org.github.io/iptv/categories/sports.m3u
+# 音乐频道
+https://iptv-org.github.io/iptv/categories/music.m3u
+# 纪录片频道
+https://iptv-org.github.io/iptv/categories/documentary.m3u
 [WHITELIST]
 # 以下是订阅源的白名单，白名单内的订阅源获取的接口将不会参与测速，始终保留至结果最前。
 # This is the whitelist for subscription sources. Subscription sources in the whitelist will not participate in speed testing and will always be retained at the front of the results.
